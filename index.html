@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eRentals Exclusive</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>eRentals Exclusive</h1>
+    <nav>
+      <a href="#listings">Listings</a>
+      <a href="#partner">Partner With Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Luxury Rentals Curated For You</h2>
+    <p>Experience the extraordinary. Book now or request your private stay.</p>
+    <button onclick="window.location.href='#listings'">Explore Listings</button>
+  </section>
+
+  <section id="listings">
+    <h2>Featured Listings</h2>
+    <div class="listing">
+      <img src="media/sample.jpg" alt="Sample Property" />
+      <h3>BeTasman Villa</h3>
+      <p>$1,200/night • Use code: <strong>TASMAN4ERENTALS</strong></p>
+      <button onclick="window.location.href='https://example.com'">Book Now</button>
+    </div>
+  </section>
+
+  <section id="partner">
+    <h2>Partner With Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="instagram" placeholder="Instagram Handle" />
+      <select name="listingType">
+        <option value="villa">Villa</option>
+        <option value="yacht">Yacht</option>
+        <option value="island">Private Island</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Subscribe to Newsletter</h2>
+    <form>
+      <input type="email" placeholder="Your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow us @erentalsexclusive</p>
+  </footer>
+</body>
+</html>
